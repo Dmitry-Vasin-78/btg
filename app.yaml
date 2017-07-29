@@ -3,9 +3,9 @@ vm: true
 
 env_variables:
   # --REQUIRED--
-  DATABASE_URI: mongodb://localhost:27017/dev
-  APP_ID: <your-app-id>
-  MASTER_KEY: <your-master-key>
+  DATABASE_URI: mongodb://localhost:27017/btg_database
+  APP_ID: UUR4D6YV5SFHDFGI
+  MASTER_KEY: 9ZBW2TP5XAG2I7A3WJXA6LFU0C1ZAWUQM6N2
   # --OPTIONAL--
   # FILE_KEY: <your-file-key>
   # PARSE_MOUNT: /parse

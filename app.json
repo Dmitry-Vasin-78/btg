@@ -7,19 +7,19 @@
   "env": {
     "PARSE_MOUNT": {
       "description": "Configure Parse API route.",
-      "value": "/parse"
+      "value": "/parse/btg_database"
     },
     "APP_ID": {
       "description": "A unique identifier for your app.",
-      "value": "myAppId"
+      "value": "UUR4D6YV5SFHDFGI"
     },
     "MASTER_KEY": {
       "description": "A key that overrides all permissions. Keep this secret.",
-      "value": "myMasterKey"
+      "value": "9ZBW2TP5XAG2I7A3WJXA6LFU0C1ZAWUQM6N2"
     },
     "SERVER_URL": {
       "description": "URL to connect to your Heroku instance (update with your app's name + PARSE_MOUNT)",
-      "value": "http://yourappname.herokuapp.com/parse"
+      "value": "http://localhost:1337/parse"
     }
   },
   "image": "heroku/nodejs",

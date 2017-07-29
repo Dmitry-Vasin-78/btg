@@ -14,20 +14,10 @@
     "parse": "~1.8.0",
     "parse-server": "*",
     "react": "^0.13.0",
-    "parse-react": "^0.5.0"
-  },
-  "devDependencies": {
-    "babelify": "^6.0.2",
-    "browserify": "^6.2.0",
-    "watchify": "^2.1.1"
+    "parse-react": 
   },
   "scripts": {
     "start": "node index.js"
-  },
-  "browserify": {
-    "transform": [
-      "babelify"
-    ]
   },
   "engines": {
     "node": ">=4.3"

@@ -14,9 +14,9 @@ if (!databaseUri) {
 var api = new ParseServer({
   databaseURI: databaseUri || 'mongodb://localhost:27017/btg_database',
   cloud: process.env.CLOUD_CODE_MAIN || __dirname + '/cloud/main.js',
-  appId: process.env.APP_ID || 'UUR4D6YV5SFHDFGI',
-  masterKey: process.env.MASTER_KEY || '9ZBW2TP5XAG2I7A3WJXA6LFU0C1ZAWUQM6N2',
-  serverURL: process.env.SERVER_URL || 'http://localhost:1337/parse',
+  appId: process.env.APP_ID || 'appBTG',
+  masterKey: process.env.MASTER_KEY || '9ZBW2TP5XAG2I7A3WJXA6LFU0C1ZAWUQM6N2', //Add your master key here. Keep it secret!
+  serverURL: process.env.SERVER_URL || 'http://baikal-travel-guide.ru:1337/parse',
   liveQuery: {
     classNames: ["Posts", "Comments"] // List of classes to support for query subscriptions
   }
